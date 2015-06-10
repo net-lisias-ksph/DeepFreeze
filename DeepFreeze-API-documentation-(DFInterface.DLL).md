@@ -57,5 +57,6 @@ int **seatIdx** - The seat index they are assigned to within the part.
 string **seatName** - The seat transform name of the seat they are assigned to within the part.  
 string **experienceTraitName** - Their experience trait name (pilot, engineer, etc).  
 
-The source code for the dll can be found [here](https://github.com/JPLRepo/DeepFreeze/tree/master/Source/DFInterface).
+The source code for the dll can be found [here](https://github.com/JPLRepo/DeepFreeze/tree/master/Source/DFInterface).  
+The DLL itself can be found [here](https://github.com/JPLRepo/DeepFreeze/tree/master/DFInterface/Plugins)
 
