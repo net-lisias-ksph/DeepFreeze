@@ -49,17 +49,16 @@ Sample Calling Code:
 
 ## GetFrozenKerbals() attributes
 This interface exposes several properties via the KerbalInfo type for third party mod use. They are explained below.  
-     `  
-     double **lastUpdate** - The game time (Planetarium.GetUniversalTime) the Kerbal was Frozen.  
-     ProtoCrewMember.RosterStatus **status** - Their Roster Status which is set to DEAD when they are frozen.  
-     ProtoCrewMember.KerbalType **type** - Their Kerbal Type which is set to UNOWNED when they are frozen.  
-     Guid **vesselID** - the Guid vessel.id of the Vessel they are currently assigned to as frozen.  
-     string **vesselName** - The name of the Vessel they are currently assigned to.  
-     uint **partID** - The partid - flightid unique part ID of the actual freezer part they are frozen within.  
-     int **seatIdx** - The seat index they are assigned to within the part.  
-     string **seatName** - The seat transform name of the seat they are assigned to within the part.  
-     string **experienceTraitName** - Their experience trait name (pilot, engineer, etc).  
-     `  
+double **lastUpdate** - The game time (Planetarium.GetUniversalTime) the Kerbal was Frozen.  
+ProtoCrewMember.RosterStatus **status** - Their Roster Status which is set to DEAD when they are frozen.  
+ProtoCrewMember.KerbalType **type** - Their Kerbal Type which is set to UNOWNED when they are frozen.  
+Guid **vesselID** - the Guid vessel.id of the Vessel they are currently assigned to as frozen.  
+string **vesselName** - The name of the Vessel they are currently assigned to.  
+uint **partID** - The partid - flightid unique part ID of the actual freezer part they are frozen within.  
+int **seatIdx** - The seat index they are assigned to within the part.  
+string **seatName** - The seat transform name of the seat they are assigned to within the part.  
+string **experienceTraitName** - Their experience trait name (pilot, engineer, etc).  
+  
 
 IdeepFreezer properties and methods exposed for each DeepFreezer PartModule.  
     `  
