@@ -60,8 +60,8 @@ string **seatName** - The seat transform name of the seat they are assigned to w
 string **experienceTraitName** - Their experience trait name (pilot, engineer, etc).  
   
 
-IdeepFreezer properties and methods exposed for each DeepFreezer PartModule.  
-    `  
+##IdeepFreezer properties and methods exposed for each DeepFreezer PartModule.  
+  
 bool **DFIcrewXferTOActive** - Set to TRUE if a CrewXfer TO this part is active, else FALSE  
 bool **DFIcrewXferFROMActive** - Set to TRUE if a CrewXfer FROM this part is active, else FALSE   
 int **DFIFreezerSize** - The Size (# of frozen kerbals it can hold) of the Freezer in this part.  
@@ -76,7 +76,7 @@ FrznCrewList **DFIStoredCrewList** - This is a List of the frozen crew on the pa
 
 void beginFreezeKerbal(ProtoCrewMember CrewMember); -  This method allows you to freeze a kerbal in the part. The moethod can be called safely, as it will check the crew member is in the part, no other freeze, thaw process is running, etc.  
 void beginThawKerbal(string frozenkerbal); -  This method allows you to thaw a kerbal in the part. The moethod can be called safely, as it will check the crew member is in the part, no other freeze, thaw process is running, etc.    
-    ` 
+ 
  
 Sample Calling Code for using IDeepFreezer:  
 
