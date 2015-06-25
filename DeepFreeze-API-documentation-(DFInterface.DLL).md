@@ -80,7 +80,7 @@ void beginThawKerbal(string frozenkerbal); -  This method allows you to thaw a k
  
 Sample Calling Code for using IDeepFreezer:  
 
-     PartModule deepFreezer = (from PartModule pm in part.Modules where pm.moduleName == "DeepFreezer" select pm).SingleOrDefault();
+     PartModule deepFreezer = part.Modules["DeepFreezer"];
      ((IDeepFreezer)deepFreezer).beginThawKerbal(kerbal.name);
 
 The source code for the dll can be found [here](https://github.com/JPLRepo/DeepFreeze/tree/master/Source/DFInterface).  
