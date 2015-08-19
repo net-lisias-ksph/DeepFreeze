@@ -65,11 +65,11 @@ bool **DFIcrewXferTOActive** - Set to TRUE if a CrewXfer TO this part is active,
 bool **DFIcrewXferFROMActive** - Set to TRUE if a CrewXfer FROM this part is active, else FALSE   
 int **DFIFreezerSize** - The Size (# of frozen kerbals it can hold) of the Freezer in this part.  
 int **DFITotalFrozen** - The total number of currently frozen kerbals on-board this part.  
-int **DFIFreezerSpace** - How many free Cryopods there currently are.
-bool **DFIPartFull** - Set to TRUE if the part is currently FULL (This includes frozen and non-frozen kerbals.  - Else False.
-bool **DFIIsFreezeActive** - Set to TRUE if currently executing a Freeze process, else False.  
-bool **DFIIsThawActive** - Set to TRUE if currently executing a Thaw process, else False.   
-bool **DFIFreezerOutofEC** - Set to TRUE if ElecCharge usage is on for monitoring and the freezer is out of EC, else False.  
+int **DFIFreezerSpace** - How many free Cryopods there currently are.   
+bool **DFIPartFull** - Set to TRUE if the part is currently FULL (This includes frozen and non-frozen kerbals.  - Else False.   
+bool **DFIIsFreezeActive** - Set to TRUE if currently executing a Freeze process, else False.     
+bool **DFIIsThawActive** - Set to TRUE if currently executing a Thaw process, else False.      
+bool **DFIFreezerOutofEC** - Set to TRUE if ElecCharge usage is on for monitoring and the freezer is out of EC, else False.     
 FrzrTmpStatus **DFIFrzrTmp** - Set to one of three values (see FrzrTmpStatus enum) depending on the current temperature status of the part.  
 FrznCrewList **DFIStoredCrewList** - This is a List of the frozen crew on the part. (see FrznCrewList class for details of values stored for each frozen kerbal).  
 
