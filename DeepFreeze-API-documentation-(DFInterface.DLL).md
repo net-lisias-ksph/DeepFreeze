@@ -5,8 +5,8 @@ As KSP OutOfTheBox (OOTB) does not support FROZEN kerbals Deepfreeze had to come
 A much better approach would be that KSP did support other statuses... Wishful thinking.  
 The next best thing is  this interface which other Mods can use to know which Kerbals are frozen or not.  
 The next best thing after using this interface is to just guess if DeepFreeze is installed and do your own checking for frozen kerbals.  
-If you don't want to use this interface and do your own checking DeepFreeze tricks KSP for Frozen KErbals by setting they type = Unowned (usually this is Crew) and rosterstatus = Dead (usually Assigned). 
-DeepFreeze then actually REMOVES the Kerbal from the vessel/part  so they are not included in part counts, crew list, etc. DeepFreeze DOES remember the vessel/part/seat details for them (which you can get via this interface) so when they are Thawed again their settings are all reset and they are re-added into the vessel/part.  
+If you don't want to use this interface and do your own checking DeepFreeze tricks KSP for Frozen Kerbals by setting they type = Unowned (usually this is Crew) and rosterstatus = Dead (usually Assigned). 
+DeepFreeze then actually REMOVES the Kerbal from the vessel/part ProtoCrewList so they are not included in part counts, crew list, etc. DeepFreeze DOES remember the vessel/part/seat details for them (which you can get via this interface) so when they are Thawed again their settings are all reset and they are re-added into the vessel/part.  
 The last thing would be to do nothing and be ignorant of frozen kerbals (but then you probably wouldn't be reading this page).  
 
 This interface exposes the details of all frozen kerbals.    
@@ -38,12 +38,11 @@ Sample Calling Code:
                 ........YOUR SPECIFIC MOD CODE WITH RELATION TO DEEPFREEZE PROCESSING....  
              }  
          }  
-         catch (exception ex)  
-	    + {
-	    + Debug.Log("Error attempting to check DeepFreeze for FrozenKerbals");
-	    + Debug.Log(ex.Message);
-	    + }
-	    + }
+         catch (Exception ex)  
+	 {
+	     Debug.Log("Error attempting to check DeepFreeze for FrozenKerbals");
+	     Debug.Log(ex.Message);
+	 }
     }  
      `
 
