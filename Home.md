@@ -1,4 +1,4 @@
-Welcome to the DeepFreeze wiki!
+Welcome to the DeepFreeze Continued... wiki!
 
 Still Very much a W.I.P. so Stay tuned!!   
 ![](http://i.imgur.com/GPowD3m.png)   
