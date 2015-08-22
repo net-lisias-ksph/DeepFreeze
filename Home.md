@@ -1,6 +1,6 @@
 Welcome to the DeepFreeze wiki!
 
-Still Very much a W.I.P. so Stay tuned!!
+Still Very much a W.I.P. so Stay tuned!!   
 ![](http://i.imgur.com/GPowD3m.png)   
 [In Game Settings menu](https://github.com/JPLRepo/DeepFreeze/wiki/Space-Center-Settings-Menu-Options)   
 [Config File Settings](https://github.com/JPLRepo/DeepFreeze/wiki/Config-File-Settings)   
