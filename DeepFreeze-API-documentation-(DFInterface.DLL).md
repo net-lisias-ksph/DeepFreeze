@@ -1,12 +1,14 @@
 # DFInterface.dll
 
+If you intend to use or are using this DLL for your MOD please drop me a PM on the forum and let me know so that I can let you know if a change is pending. I will try to keep changes to this Interface to an absolute minimum.
+
 Deep Freeze provides an interface to allow for detection of Frozen Crew. 
 As KSP OutOfTheBox (OOTB) does not support FROZEN kerbals Deepfreeze had to come up with a way of setting a Kerbal up to appear Frozen and 'trick' the game and other mods into not seeing the frozen kerbals.  
 A much better approach would be that KSP did support other statuses... Wishful thinking.  
 The next best thing is  this interface which other Mods can use to know which Kerbals are frozen or not.  
 The next best thing after using this interface is to just guess if DeepFreeze is installed and do your own checking for frozen kerbals.  
 If you don't want to use this interface and do your own checking DeepFreeze tricks KSP for Frozen Kerbals by setting they type = Unowned (usually this is Crew) and rosterstatus = Dead (usually Assigned). 
-DeepFreeze then actually REMOVES the Kerbal from the vessel/part ProtoCrewList so they are not included in part counts, crew list, etc. DeepFreeze DOES remember the vessel/part/seat details for them (which you can get via this interface) so when they are Thawed again their settings are all reset and they are re-added into the vessel/part.  
+DeepFreeze then actually REMOVES the Kerbal from the vessel/part ProtoCrewList so they are not included in part counts, crew list, etc. The kerbalRef assigned to the seat remains in place. DeepFreeze turns the kerbal renderer OFF so they do not appear. DeepFreeze DOES remember the vessel/part/seat details for them (which you can get via this interface) so when they are Thawed again their settings are all reset and they are re-added into the vessel/part.  
 The last thing would be to do nothing and be ignorant of frozen kerbals (but then you probably wouldn't be reading this page).  
 
 This interface exposes the details of all frozen kerbals.    
@@ -83,5 +85,4 @@ Sample Calling Code for using IDeepFreezer:
      ((IDeepFreezer)deepFreezer).beginThawKerbal(kerbal.name);
 
 The source code for the dll can be found [here](https://github.com/JPLRepo/DeepFreeze/tree/master/Source/DFInterface).  
-The DLL itself can be found [here](https://github.com/JPLRepo/DeepFreeze/tree/master/DFInterface/Plugins)
-
+The DLL itself can be found [here](https://github.com/JPLRepo/DeepFreeze/blob/master/DFInterface.zip)
