@@ -1,5 +1,6 @@
 In-Game GUI Settings screen:   
-Now has a Config/Settings Window at the SpaceCenter that allows you to change the following config file settings from in-game.   
+Now has a Config/Settings Window at the SpaceCenter that allows you to change the following config file settings from in-game. 
+![](http://i.imgur.com/saGaAd8.png)  
 To access bring up the Deepfreeze Window at the Space Center by clicking the DeepFreeze App Icon and then click "settings" at the bottom of the window:-    
 * "ElectricCharge Required to run Freezers" = ECreqdForFreezer - Takes effect immediately.   
 * "AutoRecover Froen Kerbals at KSC" = AutoRecoverFznKerbals - Takes effect immediately.   
