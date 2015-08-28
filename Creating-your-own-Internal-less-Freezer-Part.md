@@ -40,7 +40,7 @@ MODULE
 
 * SAVE your edited config file.   
 It should look like this from our example (of course you will have whatever you came up with for your name, title, manufacturer, and description fields):   
-`
+`   
 PART   
 {   
 	name = dodgyFreezer   
