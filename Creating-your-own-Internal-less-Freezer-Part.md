@@ -21,7 +21,15 @@ You must change the following fields in the config file:
             name = crewCabinInternals      
         }      
 ```      
-   
+* **ADD** the Glykerol Resource node before the first MODULE node in your file.
+```
+    RESOURCE
+	{
+		name = Glykerol
+		amount = 50
+		maxAmount = 50
+	}
+```   
 **ADD** a new MODULE node at the end of the config file **BEFORE** the last }.   
    
 ```   
@@ -71,7 +79,12 @@ PART
 	maxTemp = 2000 // = 2900   
 	vesselType = Ship   
 	bulkheadProfiles = size2   
-	   
+	RESOURCE
+	{
+		name = Glykerol
+		amount = 50
+		maxAmount = 50
+	}  
 	MODULE   
 	{   
 		name = ModuleScienceExperiment   
@@ -118,4 +131,3 @@ You can repeat the process if you like. If you want a different crew capacity yo
 * CrewCapacity = x - what crew capacity you want.
 * FreezerSize = x - must be the same as CrewCapacity.
 * cryopodstateclosedstring = True, True, etc - There should be the same number of "True, " as the Crewcapacity.   
-
