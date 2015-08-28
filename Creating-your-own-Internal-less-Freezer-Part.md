@@ -21,7 +21,7 @@ You must change the following fields in the config file:
             name = crewCabinInternals      
         }      
 ```      
-* **ADD** the Glykerol Resource node before the first MODULE node in your file.
+* **ADD** the Glykerol Resource node before the first MODULE node in your file. You can change the amount and maxAmount of Glykerol to whatever you require.   
 ```
     RESOURCE
 	{
