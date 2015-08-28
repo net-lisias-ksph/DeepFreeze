@@ -15,27 +15,27 @@ You must change the following fields in the config file:
 3. title = xxxx = Change the title to your own name. This is what shows in the VAB as the name of your part.   
 4. Change the manufacturer = and description = to whatever you like.   
 * **REMOVE** the following lines (your must have no INTERNAL node in the config file or this will not work).   
-`   
-INTERNAL   
-	{   
-		name = crewCabinInternals   
-	}   
+`      
+INTERNAL
+    {        
+        name = crewCabinInternals      
+    }      
 `      
    
 **ADD** a new MODULE node at the end of the config file **BEFORE** the last }.   
    
 `   
 MODULE   
-	{   
-		name = DeepFreezer   
-		FreezerSize = 6   
-		ChargeRequired = 3000   
-		GlykerolRequired = 5   
-		ChargeRate = 30   
-		FrznChargeRequired = 10   
-		isPartAnimated = False   
-		cryopodstateclosedstring = True, True, True, True, True, True   
-	}   
+    {      
+        name = DeepFreezer   
+        FreezerSize = 6   
+        ChargeRequired = 3000   
+        GlykerolRequired = 5   
+        ChargeRate = 30   
+        FrznChargeRequired = 10   
+        isPartAnimated = False   
+        cryopodstateclosedstring = True, True, True, True, True, True   
+    }   
 `   
 
 * SAVE your edited config file.   
