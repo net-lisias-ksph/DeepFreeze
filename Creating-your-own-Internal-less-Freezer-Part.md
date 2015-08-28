@@ -24,7 +24,7 @@ You must change the following fields in the config file:
    
 **ADD** a new MODULE node at the end of the config file **BEFORE** the last }.   
    
-`   
+```   
 MODULE   
     {      
         name = DeepFreezer   
@@ -36,11 +36,11 @@ MODULE
         isPartAnimated = False   
         cryopodstateclosedstring = True, True, True, True, True, True   
     }   
-`   
+```   
 
 * SAVE your edited config file.   
 It should look like this from our example (of course you will have whatever you came up with for your name, title, manufacturer, and description fields):   
-`   
+```  
 PART   
 {   
 	name = dodgyFreezer   
@@ -112,7 +112,7 @@ PART
 		cryopodstateclosedstring = True, True, True, True, True, True   
 	}   
 }   
-`   
+```   
 You can remove the ModuleScienceExperiment, ModuleScienceContainer MODULE nodes if you want.   
 You can repeat the process if you like. If you want a different crew capacity you simply change the    
 * CrewCapacity = x - what crew capacity you want.
