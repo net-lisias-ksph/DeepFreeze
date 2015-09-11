@@ -22,4 +22,9 @@ debugging - Set to True or False (Default). If true spams the KSP Log with debug
 * CFWindowWidth = 340 - This is the default window width for the DeepFreeze Settings GUI screen.   
 * KACWindowWidth = 485 - This is the default window width for the DeepFreeze Alarms GUI screen.
 * ECLowWarningTime = 3600 - Time in Seconds before LOW EC warnings are given when EC monitoring/consumption function is on.   
-* EClowCriticalTime = 900 - Time in Seconds before CRITICAL EC warnings are given when EC monitoring/consumption function is on.   
+* EClowCriticalTime = 900 - Time in Seconds before CRITICAL EC warnings are given when EC monitoring/consumption function is on.  
+* StripLightsActive = True - If true Cryopod Strip lights will animate. If you have performance issues set this to false.   
+* internalFrzrCamCode = 100 - this is the decimal ASCII code for the CameraMode Key, the default is 100 which is the 'd' key.   
+* internalNxtFrzrCamCode = 110 - this is decimal ASCII code for the Next Freezer Camera Key, the default is 110 which is the 'n' key.   
+* internalPrvFrzrCamCode = 98 - this is decimal ASCII code for the Previous Freezer Camera Key, the default is 98 which is the 'b' key.   
+* The numeric values are from the standard ASCII key code table http://www.asciitable.com/    
