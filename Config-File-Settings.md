@@ -3,7 +3,9 @@ Located in your install directory under \GameData\REPOSoftTech\DeepFreeze\Plugin
    
 * DFwindowPosX, DFwindowPosY - the X,Y position of the DeepFreezer GUI window. Last position of the GUI is updated and saved here.   
 * CFwindowPosX, CFwindowPosY - the X,Y position of the DeepFreezer GUI Settings window. Last position of the GUI is updated and saved here.   
-* ECreqdForFreezer - set to True or False (Default). If True will require x units of Electrical Charge (x = value in FrzChargeRequired in part cfg file, default is10) per kerbal per minute to monitor their life support systems. If the vessel they are on runs our of EC the frozen kerbals will start dying.   
+* ECreqdForFreezer - set to True or False (Default). If True will require x units of Electrical Charge (x = value in FrzChargeRequired in part cfg file, default is10) per kerbal per minute to monitor their life support systems. If the vessel they are on runs our of EC the frozen kerbals will start dying or be emergency thawed depending on the next setting.   
+* EC/Temp Fatal option - If this is set to ON running out of EC or over heating will be fatal for frozen kerbals if you have ECreqdForFreeze or RegTempReqd are ON.   If this is set to OFF kerbals will be emergency thawed when EC runs out or the part becomes too hot and become comatose for a period of time set by the next setting.   
+* comatoseTime - The amount of time a kerbal becomes comatose if EC/Temp fatal option is OFF in SECONDS.   
 * UseAppLauncher - set to True (Default) or False. If True uses the stock KSP Application Launcher icons for the DeepFreeze GUI. If False will use Toolbar by blizzy (must be installed).   
 debugging - Set to True or False (Default). If true spams the KSP Log with debug messages. (leave false)   
 * AutoRecoverFznKerbals - Set to True (Default) or False. If True (Default) frozen kerbals will be thawed on vessel recovery automatically (for a cost, see next field). If False you have to thaw kerbals manually using the DeepFreeze GUI (for a cost, see next field).   
