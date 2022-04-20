@@ -1,5 +1,10 @@
 # Deep Freeze :: Change Log
 
+* 2016-0622: 0.22.3.0 (JPLRepo) for KSP 1.1.3
+	+ Fix Bug where KAC Alarms GUI window fails if there is a KAC alarm of type "Crew"
+	+ Adjustments to internal code for 1.1.3 API changes for Crew Transfers.
+	+ Removed Glykerol Defintion from DeepFreeze distribution. Glykerol will now be defined as part of the Community Resource Pack (CRP) V0.5.4.0 and up.
+	+ So DeepFreeze is now dependent on CRP and includes CRP in it's distribution.
 * 2016-0605: 0.22.2.0 (JPLRepo) for KSP 1.1.2
 	+ Fixed bug with Icons not loading on Linux.
 	+ Efficiency clean-up on code modules (speed and memory use).
