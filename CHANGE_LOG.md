@@ -1,5 +1,11 @@
 # Deep Freeze :: Change Log
 
+* 2017-0528: 0.23.5.0 (JPLRepo) for KSP 1.3.0
+	+ V0.23.5.0
+	+ Compile for KSP 1.3.0
+	+ Localization ready (but all in English) - Translation volunteers welcome. ;)
+	+ If Infinite EC is turned on DeepFreeze will not consume EC.
+	+ If in IVA/Internal camera view when you freeze the last kerbal will automatically change the camera to flight view to avoid invalid camera reference.
 * 2017-0409: 0.23.4.0 (JPLRepo) for KSP 1.2.2
 	+ Fix issue with launching vessels with DeepFreeze parts with greater capacity than previously launched vessels would cause
 	+ null reference exceptions, lost DeepFreeze tracking and lost frozen kerbals. Thanks to Gnurfos who found the bug.
