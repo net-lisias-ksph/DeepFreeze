@@ -1,5 +1,17 @@
 # Deep Freeze :: Change Log
 
+* 2015-1208: 0.20.0.0 (JPLRepo) for KSP 1.0.5
+	+ Added new Radial External Cryopod - The CRY-0300R. A single kerbal Cryopod part that can be radially attached. The CRY-0300R also has an attach point at the top of the pod.
+	+ Great for adding radial pods to your vessel or inside a SpacePlane CargoBay! Fits inside the Mk-2 & Mk-3 Cargo bays, the part does clip through the base of cargo bays as it is primarily designed to attach to the outside of a curved part.    However, if you get creative you can fit it into a Cargo bay using girders or octaganol struts.
+	+ The CRY-0300R supports RasterPropMonitor transparent pods (yes it's transparent if you have RPM installed).
+	+ The CRY-0300R also has an external EVA hatch. The CRY-0300R only weighs 0.87t (the full CRY-0300 weights 2.62t) and appears in the TechTree at spaceExploration (same as the CRY-0300).
+	+ This now completes the set of all the originally planned DeepFreeze parts.
+	+ MerlinsMaster has re-textured more details into all the Cryopods.
+	+ Fixed Pod transparency for the CRY-0300 (and the CRY-0300R) based on RPM transparency setting in flight and also now works in the Editor (VAB/SPH). However, due to the complications of DeepFreeze parts transparency can either be ON or OFF (RPM AUTO setting is treated as Transparency OFF).
+	+ Fixed bug where the External Door Open/Close sound effect was not working for the CRY-0300.
+	+ Rationalis(z)ed all the part models and textures into one folder, as a lot of them are shared. This will save some memory.    Thanks goes to khr15714n for kicking me into doing this as I have been meaning to for a while.
+	+ Due to this however, if you are upgrading from a previous version of DeepFreeze you MUST delete the /GameData/REPOSoftTech/DeepFreeze entirely BEFORE installing this version. If you want to save your DeepFreeze
+	+ settings make a backup/copy of /GameData/REPOSoftTech/DeepFreeze/Plugins/Config.cfg file BEFORE deleting your DeepFreeze folder then copy you backup/copy of this file back into the /GameData/REPOSoftTech/DeepFreeze/Plugins folder once you have upgraded.
 * 2015-1110: 0.19.3.0 (JPLRepo) for KSP 1.0.5
 	+ Recompile for KSP 1.0.5
 * 2015-1030: 0.19.2.0 (JPLRepo) for KSP 1.0.3
