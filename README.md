@@ -25,5 +25,6 @@ You are authorised to fork this repository under GitHub [ToS](https://help.githu
     + [Github](https://github.com/ScottPaladin/DeepFreeze)
 * [JPLRepo](https://forum.kerbalspaceprogram.com/index.php?/profile/114736-jplrepo/)
 	+ [Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/112328-112x-deepfreeze-v0310-12th-sep-2021/)
+	+ [Imgur](https://imgur.com/a/0j5YZ#nnx9Au0)
 	+ [SpaceDock](https://spacedock.info/mod/142/DeepFreeze%20Continued...)
 	+ [Github](https://github.com/JPLRepo/DeepFreeze)
