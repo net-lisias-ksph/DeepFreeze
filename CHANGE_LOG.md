@@ -1,5 +1,9 @@
 # Deep Freeze :: Change Log
 
+* 2015-1019: 0.19.1.0 (JPLRepo) for KSP 1.0.3
+	+ Added comatose function for when EC or Heat options are ON and Fatal option is OFF. Now when you run out of EC or overheat with these options set kerbals will be emergency thawed
+	+ and become comatose (tourists) for a period of 5 minutes (can be changed in the settings menu).
+	+ Fixed bug with new pop-up windows when EC is critical or overheat - this pop-up will now NOT appear if the active vessel is the vessel that has run out of EC or overheat.
 * 2015-1007: 0.19.0.0 (JPLRepo) for KSP 1.0.3
 	+ Added Fatal EC/Heat option. If this is ON kerbals will die if EC runs out or it gets too hot (if you are using the EC and Heat options). If this is OFF
 	+ the Kerbals will be emergency thawed and become available again, and start consuming LS resources again. (to-do - expand this to perhaps make them unusable for a period of time due to
