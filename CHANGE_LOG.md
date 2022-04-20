@@ -1,5 +1,12 @@
 # Deep Freeze :: Change Log
 
+* 2015-0823: 0.18.1.0 (JPLRepo) for KSP 1.0.3
+	+ Fix GUI LastTimeUpdated field to stop tracking time when settings are changed to turn off ECreqd/Monitoring option.
+	+ Fix GUI Colours for EC monitoring, Temp Monitoring and LastTimeUpdated field.
+	+ Fix error accessing Kerbal Alarm Clock entries with invalid vessel id's (alarms not attached to vessels) and reduce log spam.
+	+ Fix Error in Texture assignments for models.
+	+ Fix error loading/saving cryopod states on part load/save.
+	+ Fix CRY-0300 transparency issue for some users.
 * 2015-0822: 0.18.0.0 (JPLRepo) for KSP 1.0.3
 	+ Refer to the changelog on the [Forum here](http://forum.kerbalspaceprogram.com/threads/124720). There are just so many changes.
 * 2015-0712: 0.17.1.0 (JPLRepo) for KSP 1.0.3
