@@ -1,5 +1,10 @@
 # Deep Freeze :: Change Log
 
+* 2016-0605: 0.22.2.0 (JPLRepo) for KSP 1.1.2
+	+ Fixed bug with Icons not loading on Linux.
+	+ Efficiency clean-up on code modules (speed and memory use).
+	+ Fix bug where DeepFreeze is not maintaining and updating Vessel Information for Vessels with Freezer parts, causing Exceptions in the log and vessels not appearing in the Vessel List in the DeepFreeze GUI window.
+	+ Moved Config.cfg file from Plugins to /Plugins/PluginData to prevent resetting Module Manager cache every time you change a setting.
 * 2016-0430: 0.22.1.0 (JPLRepo) for KSP 1.1.2
 	+ V0.22.1.0 "KSP 1.1.2 Update"
 	+ Fixed portrait camera issues.
