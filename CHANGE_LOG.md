@@ -1,5 +1,7 @@
 # Deep Freeze :: Change Log
 
+* 2020-1016: 0.29.0.0 (JPLRepo) for KSP 1.10.x
+	+ Re-Compile for KSP 1.10.x
 * 2020-0304: 0.28.0.0 (JPLRepo) for KSP 1.9.1
 	+ V0.28.0.0
 	+ Re-Compile for KSP 1.9.x
