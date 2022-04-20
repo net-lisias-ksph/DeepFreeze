@@ -1,5 +1,7 @@
 # Deep Freeze :: Change Log
 
+* 2015-0911: 0.18.2.1 (JPLRepo) for KSP 1.0.3
+	+ Fix release - add missing DFInterface.DLL file to distro.
 * 2015-0911: 0.18.2.0 (JPLRepo) for KSP 1.0.3
 	+ V0.18.2.0 "Bug Fixes & Enhancements"
 	+ Fix Radial attachment points for CRY-0300 exclusion zones around the external doors. The CRY-0300 now correctly allows you to attach radial parts to the outside of it except for where the external doors are.
