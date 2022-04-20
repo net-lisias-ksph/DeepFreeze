@@ -1,5 +1,8 @@
 # Deep Freeze :: Change Log
 
+* 2019-1018: 0.27.0.0 (JPLRepo) for KSP 1.8.1
+	+ Fix dependency issue for Unloaded Resources processing requiring TAC-LS to be installed.
+	+ Re-Compile for KSP 1.8.x
 * 2019-0629: 0.26.0.0 (JPLRepo) for KSP 1.7.2
 	+ Re-compile for KSP 1.7.2 and above.
 	+ Added BackgroundResources processing. This is a module also distributed with my TAC LS mod. It will do EC processing for DeepFreezer parts that
