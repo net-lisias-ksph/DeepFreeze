@@ -1,5 +1,12 @@
 # Deep Freeze :: Change Log
 
+* 2015-0520: 0.14.1 (JPLRepo) for KSP 1.0.x PRE-RELEASE
+	+ This is a WIP pre-release fixes for KSP 1.0.x
+	+ KNOWN BUGS: Part Right click menu is glitchy showing Thaw and Freeze buttons. BUT they work. When they glitch or you click one, right click/close the part menu and then right click it again to update.
+	+ I need more time to fix this, but have run out of time today.
+	+ FIXED: Node attach points FIXED for KSP 1.0.x strict rules.
+	+ Compiled against .NET 3.5 Framework
+	+ UNKNOWN BUGS: Probably many. Have done minimum testing.
 * 2014-1119: 0.14 (ScottPaladin) for KSP 0.25
 	+ Changelog:
 		- Fixed freezing failing to abort when EC is depleted
