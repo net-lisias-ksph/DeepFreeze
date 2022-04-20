@@ -1,5 +1,25 @@
 # Deep Freeze :: Change Log
 
+* 2015-0911: 0.18.2.0 (JPLRepo) for KSP 1.0.3
+	+ V0.18.2.0 "Bug Fixes & Enhancements"
+	+ Fix Radial attachment points for CRY-0300 exclusion zones around the external doors. The CRY-0300 now correctly allows you to attach radial parts to the outside of it except for where the external doors are.
+	+ There is a EVA Access point at the bottom of the external doors. If you block this with radial parts your EVA access will be blocked by KSP and you will get the "Hatch Obstructed" message.
+	+ It is recommended you do not attach parts to the doors or the lower front section of the CRY-0300.
+	+ Fix DeepFreeze partmodule to support re-use on non DeepFreeze parts. To use you must add partmodule to a crewable part but you must NOT have an internalmodel defined for that part.
+	+ Refer to the WIKI page on how to configure your own parts (WARNING: No support will be provided for parts you have made yourself using this method).
+	+ All Cryopods now have windows that freeze and thaw (as was our original intent) so they go transparent when empty or a thawed kerbal is seated, and they appear frozen when a frozen kerbal is within.
+	+ You can now switch to Internal Cameras (same cameras used when in IVA and you freeze/thaw a Kerbal) using Modifier key (Windows this is ALT) and d key.
+	+ Switch to the next Cryopod Internal Camera using the 'n' key. Switch to the previous Cryopod Internal Camera using the 'b' key.
+	+ Press the 'c' or whatever key you have mapped to camera to switch back to IVA/Flight Camera mode.
+	+ You can change the key settings in the \GameData\REPOSoftTech\DeepFreeze\Pluginf\Config.cfg file using a text editor (not available via the in-game settings menu).
+	+ internalFrzrCamCode = 100 - this is the decimal ASCII code for the CameraMode Key, the default is 100 which is the 'd' key.
+	+ internalNxtFrzrCamCode = 110 - this is decimal ASCII code for the Next Freezer Camera Key, the default is 110 which is the 'n' key.
+	+ internalPrvFrzrCamCode = 98 - this is decimal ASCII code for the Previous Freezer Camera Key, the default is 98 which is the 'b' key.
+	+ The numeric values are from the standard ASCII key code table http://www.asciitable.com/
+	+ Minor adjustments to the CRY-2300 and CRY-1300 Internal models.
+	+ Tweaks to the animations - on vessel load pod window states are set immediately, before it used to run the animation loops. The same for when a freeze or thaw event fails.
+	+ The Freeze and Thaw Process have been tweaked: On initiating a Freeze or Thaw process the Pod will first Charge the required EC before executing the freeze or thaw process.
+	+ New sound effect for charging the Pod EC on Freeze and Thaw. Monitoring equipment sound effect when in IVA/Internal view mode.
 * 2015-0823: 0.18.1.0 (JPLRepo) for KSP 1.0.3
 	+ Fix GUI LastTimeUpdated field to stop tracking time when settings are changed to turn off ECreqd/Monitoring option.
 	+ Fix GUI Colours for EC monitoring, Temp Monitoring and LastTimeUpdated field.
