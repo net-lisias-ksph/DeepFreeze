@@ -28,3 +28,4 @@ You are authorised to fork this repository under GitHub [ToS](https://help.githu
 	+ [Imgur](https://imgur.com/a/0j5YZ#nnx9Au0)
 	+ [SpaceDock](https://spacedock.info/mod/142/DeepFreeze%20Continued...)
 	+ [Github](https://github.com/JPLRepo/DeepFreeze)
+		+ [WIKI}(https://github.com/JPLRepo/DeepFreeze/wiki)
