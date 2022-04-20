@@ -1,5 +1,17 @@
 # Deep Freeze :: Change Log
 
+* 2015-0625: 0.16.0.3 (JPLRepo) for KSP 1.0.3
+	+ Added the following fields to the Settings file (settings menu in space center)
+	+ heatamtMonitoringFrznKerbals - this is the amount of heat in Kilowatts generated per kerbal to run the monitoring equipment. Is only relevant is xxxx is set to on.
+	+ heatamtThawFreezeKerbal - this is the amount of heat in Kilowatts generated per second when thawing or freezing a kerbal. Is only relevant if xxx is set to ON.
+	+ Don't forget the new heat system in KSP, the amount of kW of heat is proportionate to the part's thermal mass.
+	+ Fixed Electric Charge and Heat monitoring - it was not storing the time last check was performed correctly and not calculating the EC usage and heating correctly.
+	+ This WILL create an issue for anyone who has been using these features in the previous versions. You may notice the first time you switch to a freezer equiped vessel that previously had EC usage or heat generation switched on that it will instantly use up 95% of your EC. So be prepared.
+	+ This change will ensure tracking of the last time checked is correct. The down-side is that due to no EC consumption or heat generation during high timewarp or when the vessel is not the active vessel that when you return to that vessel a spike in usage will occur.
+	+ Future versions to address this by providing monitoring and warning of EC usage and heat generation for all vessels including inactive vessels.
+	+ Added Messages in the bottom right corner of the screen when you are IVA mode displaying the current Kerbal's name and Crypod number.
+	+ Pick-up new Ship Manifest Interface DLL and corrected bug if transferring crew into a freezer that is full of frozen kerbals.
+	+ Fixed Pod Numbers in internal model to be correctly numbered.
 * 2015-0623: 0.16.0.2 (JPLRepo) for KSP 1.0.3
 	+ Support for KSP 1.0.3
 	+ Enhancements to the DeepFreeze API for other mod support
