@@ -1,5 +1,9 @@
 # Deep Freeze :: Change Log
 
+* 2018-1025: 0.23.9.0 (JPLRepo) for KSP 1.5.1
+	+ Re-compile for KSP 1.5.x
+	+ Added German Translation (thanks Nils277)
+	+ Some GC/performance improvements.
 * 2018-0316: 0.23.8.0 (JPLRepo) for KSP 1.4.1
 	+ Update for KSP 1.4.1
 * 2017-1007: 0.23.7.0 (JPLRepo) for KSP 1.3.1
