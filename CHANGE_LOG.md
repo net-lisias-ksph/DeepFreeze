@@ -1,5 +1,7 @@
 # Deep Freeze :: Change Log
 
+* 2017-1007: 0.23.7.0 (JPLRepo) for KSP 1.3.1
+	+ Update for KSP 1.3.1
 * 2017-0618: 0.23.6.0 (JPLRepo) for KSP 1.3.0
 	+ Spanish and Russian Texts added.
 	+ Thanks go to Artem Kerman for Russian Texts
