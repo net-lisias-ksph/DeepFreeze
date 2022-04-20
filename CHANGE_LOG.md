@@ -1,5 +1,8 @@
 # Deep Freeze :: Change Log
 
+* 2015-0521: 0.14.2 (JPLRepo) for KSP 1.0.x PRE-RELEASE
+	+ Fixed Part Right-Click GUI actions glitch.
+	+ Tested freezing/thawing/Swtiching Kerbals around, EVAing, borading. Switching Vessels, Recovering Vessels - Far as I can tell no other bugs and fully working now in KSP 1.0.x
 * 2015-0520: 0.14.1 (JPLRepo) for KSP 1.0.x PRE-RELEASE
 	+ This is a WIP pre-release fixes for KSP 1.0.x
 	+ KNOWN BUGS: Part Right click menu is glitchy showing Thaw and Freeze buttons. BUT they work. When they glitch or you click one, right click/close the part menu and then right click it again to update.
