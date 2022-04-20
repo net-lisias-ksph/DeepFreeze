@@ -1,5 +1,9 @@
 # Deep Freeze :: Change Log
 
+* 2020-1231: 0.30.0.0 (JPLRepo) for KSP 1.11.0
+	+ V0.30.0.0
+	+ Re-Compile for KSP 1.11.x
+	+ Add EVA construction capabilities to the CRY-300R (Can move it only, can't put in inventories) and the RS-X20R Glykerol Container (can be put in inventories as well).
 * 2020-1016: 0.29.0.0 (JPLRepo) for KSP 1.10.x
 	+ Re-Compile for KSP 1.10.x
 * 2020-0304: 0.28.0.0 (JPLRepo) for KSP 1.9.1
