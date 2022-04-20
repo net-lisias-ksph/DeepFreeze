@@ -1,5 +1,12 @@
 # Deep Freeze :: Change Log
 
+* 2021-0911: 0.31.0.0 (JPLRepo) for KSP 1.12.2
+	+ V0.31.0.0
+	+ Re-Compile for KSP 1.12.x
+	+ Added difficulty settings to turn off internal beep sounds and all sounds.
+	+ Fix background resources - Kopernicus solar panels integration.
+	+ Fix Portraits showing from kerbals in loaded vessels that aren't the active vessel.
+	+ Fix timing issue with the Cryopod door animation and freeze glass animation playing at the same time. They now play one after another as they used to/should.
 * 2020-1231: 0.30.0.0 (JPLRepo) for KSP 1.11.0
 	+ V0.30.0.0
 	+ Re-Compile for KSP 1.11.x
