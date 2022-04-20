@@ -1,5 +1,7 @@
 # Deep Freeze :: Change Log
 
+* 2015-1110: 0.19.3.0 (JPLRepo) for KSP 1.0.5
+	+ Recompile for KSP 1.0.5
 * 2015-1030: 0.19.2.0 (JPLRepo) for KSP 1.0.3
 	+ Fix distribution to include missing Editor group icon from V0.19.0.0 that somehow got left out of V0.19.1.0.
 	+ Fix bug that V0.19.2.0 introduced that was causing invalid seat placements and
