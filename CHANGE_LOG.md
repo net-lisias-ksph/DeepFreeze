@@ -1,5 +1,17 @@
 # Deep Freeze :: Change Log
 
+* 2016-0315: 0.20.4.0 (JPLRepo) for KSP 1.0.5
+	+ Fixed bug when using EC for frozen kerbals is turned ON and BackgroundProcessor is not installed. When you switch back to a vessel after a long period of time and you don't have enough EC to catch-up on the EC usage DeepFreeze was not correctly consuming 95% of remanining EC and was executing the Kill/Emergency Thaw procedure.
+	+ Fixed GUI when EC usage is on where the fields were not spanning the resizable window correctly.
+	+ Improved error handling for a spurious bug in Tracking Station that cannot be tracked down.
+	+ Removed DFInterface.DLL API. Wrapper API now provided for other Mods to interface to DeepFreeze.
+	+ Removed use of SMInterface.DLL API to interface to Ship Manifest. Replaced with Reflection Wrapper class. Requires Ship Manifest V5.0.1.0 or above.
+	+ Changed DEFAULT CLS setting for the CRY-0300 and CRY-0300R to be Passable (allowing unrestricted crew transfers), this is due to a known bug in CLS/Ship Manifest mods.
+	+ Will change this setting back once Papa_Joe fixes that bug in CLS/SM.
+	+ Earlier versions of Ship Manifest no longer supported.
+	+ Updated Mini-AVC included to newer version to stop log spam.
+	+ Added Community Tech Tree science node definitions (via Module Manager file, requires Module Manager).
+	+ Re-Factored a lot of code and utilities (Code Housekeeping).
 * 2016-0214: 0.20.3.0 (JPLRepo) for KSP 1.0.5
 	+ V0.20.3.0 "bug Fixes"
 	+ Fixed bug when thawing some kerbals vessel where vessel reference transform was not set in some cases.
