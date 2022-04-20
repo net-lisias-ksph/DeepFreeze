@@ -1,5 +1,16 @@
 # Deep Freeze :: Change Log
 
+* 2015-0706: 0.17.0.0 (JPLRepo) for KSP 1.0.3
+	+ Finalization of the Large Internal, and set-up for all the up-coming parts (as they will use the same base code and animations).
+	+ Yes - Animated Cryopods! See for yourself. When you Freeze or Thaw from external view, you will see the Pod open/close in the portrait cameras.
+	+ If you are in IVA/Internal mode when you freeze/thaw the camera will switch to an internal camera viewing the pod of the kerbal you are about to freeze/thaw.
+	+ It will then animate open/close of the cryopod. This is in place of kicking you out to flight view and removing/replacing the Cryopod windows (which it was doing in previous version).
+	+ Fixed Issue with USI LifeSupport consuming resources on thaw of kerbals. DeepFreeze will detect if USI LS is installed and remove tracking in USI LS for kerbals when they are frozen.
+	+ (Same Issue as TAC LS, but can fix this one in DeepFreeze without waiting for author of other mod to change).
+	+ Fixed attach point for the external Glykerol Tank.
+	+ Changed the Cry-2300 Internal Glykerol tank to store 50units of Glykerol (instead of 40).
+	+ This allows you to Freeze 10 kerbals (the part capacity) ONCE without the need for external tanks.
+	+ Converted all textures to DDS format.
 * 2015-0625: 0.16.0.3 (JPLRepo) for KSP 1.0.3
 	+ Added the following fields to the Settings file (settings menu in space center)
 	+ heatamtMonitoringFrznKerbals - this is the amount of heat in Kilowatts generated per kerbal to run the monitoring equipment. Is only relevant is xxxx is set to on.
