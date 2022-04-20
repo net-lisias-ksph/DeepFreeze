@@ -1,5 +1,8 @@
 # Deep Freeze :: Change Log
 
+* 2017-0409: 0.23.4.0 (JPLRepo) for KSP 1.2.2
+	+ Fix issue with launching vessels with DeepFreeze parts with greater capacity than previously launched vessels would cause
+	+ null reference exceptions, lost DeepFreeze tracking and lost frozen kerbals. Thanks to Gnurfos who found the bug.
 * 2017-0218: 0.23.3.0 (JPLRepo) for KSP 1.2.2
 	+ Fix Kerbalism Integration.
 	+ Freeze Tourists!
