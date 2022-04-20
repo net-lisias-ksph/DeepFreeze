@@ -1,5 +1,11 @@
 # Deep Freeze :: Change Log
 
+* 2017-0218: 0.23.3.0 (JPLRepo) for KSP 1.2.2
+	+ Fix Kerbalism Integration.
+	+ Freeze Tourists!
+	+ DeepFreeze stock application button is not shown in flight unless the active vessel has a DeepFreezer part.
+	+ Fixed log spam when RPM occlusion fails.
+	+ Work-around for integration issue/bug in USI LS.
 * 2016-1208: 0.23.2.0 (JPLRepo) for KSP 1.2.2
 	+ Compile for KSP 1.2.2
 	+ Remove need for RSTKSPEvents and utilize new KSP 1.2.2 GameEvents extension.
