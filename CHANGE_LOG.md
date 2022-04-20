@@ -1,5 +1,19 @@
 # Deep Freeze :: Change Log
 
+* 2016-0424: 0.22.0.0 (JPLRepo) for KSP 1.1.1
+	+ Added first-cut KSPedia Pages - this is really just testing out this feature and is a very rough first cut. Plans to expand and improve this.
+	+ Support for NEW RPM - JSIAdvTransparentPods - no longer supports the OLD RPM TJSITransparentPods. You need RPM - JSITransparentPods V0.25.0 or above.
+	+ Support for Kerbalism Mod.
+	+ Minor Bugs (fix in next version):
+	+ 1) When you freeze/thaw from internal cam (alternate camera) the camera loses the transform reference point at the end of the process.
+	+ 2) When inside the CRY-0300 with the External Doors closed, if you zoom out strange camera effects mean the door is only partially visible.
+	+ 3) The screen messages when in Cryopod-Camera mode are not showing all the kerbal's names.
+	+ 4) When you change settings from Stock to Toolbar and change scenes, the toolbar appears, but stock button is still there. A restart or several scene changes fixes it.
+	+ 5) When there is a Kerbal on the ladder in front of the CRY-0300 and the doors are open the Internal Overlays the kerbal and blocks them from view.   This is actually an RPM - JSIAdvTransparentPods bug.
+	+ 6) The CRY-0300R has lost it's ability to show cool Window Freeze/Thawing animation effects.
+	+ Issues with release:
+	+ Background Processing is not available under KSP 1.1. Unless the mod author updates it soon I will look to put my own EC background processing into DeepFreeze. For now if you are using EC usage the non-Background Processing method still works (it plays catch-up when you swith to the vessel).
+	+ There is no version of TAC LS for KSP 1.1 - so it is not currently supported.
 * 2016-0315: 0.20.4.0 (JPLRepo) for KSP 1.0.5
 	+ Fixed bug when using EC for frozen kerbals is turned ON and BackgroundProcessor is not installed. When you switch back to a vessel after a long period of time and you don't have enough EC to catch-up on the EC usage DeepFreeze was not correctly consuming 95% of remanining EC and was executing the Kill/Emergency Thaw procedure.
 	+ Fixed GUI when EC usage is on where the fields were not spanning the resizable window correctly.
