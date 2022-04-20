@@ -1,5 +1,10 @@
 # Deep Freeze :: Change Log
 
+* 2015-0623: 0.16.0.2 (JPLRepo) for KSP 1.0.3
+	+ Support for KSP 1.0.3
+	+ Enhancements to the DeepFreeze API for other mod support
+	+ Modders refer to the [WIKI page](https://github.com/JPLRepo/DeepFreeze/wiki/DeepFreeze-API-documentation-%28DFInterface.DLL%29)
+	+ This is NOT save game breaking if you are upgrading from V0.16.0.0
 * 2015-0621: 0.16.0.0 (JPLRepo) for KSP 1.0.x
 	+ IVA portrait cameras now correctly update when you thaw and xfer kerbals.
 	+ Did I mention portrait cameras? Oh wait - IVA Internal texturing now completed for Large Freezer.
