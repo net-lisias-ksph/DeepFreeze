@@ -1,5 +1,13 @@
 # Deep Freeze :: Change Log
 
+* 2016-0430: 0.22.1.0 (JPLRepo) for KSP 1.1.2
+	+ V0.22.1.0 "KSP 1.1.2 Update"
+	+ Fixed portrait camera issues.
+	+ Fixed On-Screen messages for Kerbal Name when in Alternate - Cryopod Camera mode.
+	+ Fixed spacing (scroll lists) in the DeepFreeze GUI menus.
+	+ Fixed switching from Stock Toolbar Icon to Blizzy Toolbar Icon and back again.
+	+ Made Settings Menu resizable.
+	+ Added some more KSPedia pages - What do people want to see here?
 * 2016-0424: 0.22.0.0 (JPLRepo) for KSP 1.1.1
 	+ Added first-cut KSPedia Pages - this is really just testing out this feature and is a very rough first cut. Plans to expand and improve this.
 	+ Support for NEW RPM - JSIAdvTransparentPods - no longer supports the OLD RPM TJSITransparentPods. You need RPM - JSITransparentPods V0.25.0 or above.
