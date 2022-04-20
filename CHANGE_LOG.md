@@ -1,5 +1,9 @@
 # Deep Freeze :: Change Log
 
+* 2016-0127: 0.20.2.0 (JPLRepo) for KSP 1.0.5
+	+ Fixed null ref bug when vessels are destroyed.
+	+ Fixed null ref bug when KSP vessel list cannot be accessed.
+	+ Fixed null ref/NAN bug when revert to editor (from vessel with DeepFreeze part) and launch another vessel.
 * 2016-0107: 0.20.1.0 (JPLRepo) for KSP 1.0.5
 	+ Fixed sound glitch/issue with CRY-0300R when attaching more than one in symmetry mode in the editor.
 	+ For Other Modder/Mods API interface re-written providing API via reflection class (no hard dependency) - of no relevance to users.
