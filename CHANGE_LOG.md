@@ -1,5 +1,9 @@
 # Deep Freeze :: Change Log
 
+* 2019-0629: 0.26.0.0 (JPLRepo) for KSP 1.7.2
+	+ Re-compile for KSP 1.7.2 and above.
+	+ Added BackgroundResources processing. This is a module also distributed with my TAC LS mod. It will do EC processing for DeepFreezer parts that
+	+ are on unloaded vessels (not the active vessel). You can turn it off in the Difficulty settings. It also does unloaded EC production for all vessels.
 * 2019-0317: 0.25.0.0 (JPLRepo) for KSP 1.6.1
 	+ Fix shaders for real this time. - KSP no longer distributes Legacy Shader Transparent Specular.
 	+ Some Performance improvements and Garbage generation improvements on the part module.
