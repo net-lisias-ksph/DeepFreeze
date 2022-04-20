@@ -1,5 +1,16 @@
 # Deep Freeze :: Change Log
 
+* 2020-0304: 0.28.0.0 (JPLRepo) for KSP 1.9.1
+	+ V0.28.0.0
+	+ Re-Compile for KSP 1.9.x
+	+ Fixed the visibility of the CRY-0300 External Door with JSI Advanced Transparent Pods also installed.
+	+ Fixed the animated Croypod glass on the CRY-300R.
+	+ Added check and screen message when trying to thaw or freeze across multiple parts/vessels at the same time. Already had this check on the same part, but extended across all parts or bad things happen.
+	+ More performance and garbage improvements.
+	+ Kerbals in Cryopods that have external doors (CRY-0300) will leave their helmet off if the doors are open and in breathable atmosphere.
+	+ Russian translations updated by Sooll3.
+	+ Chinese translations updated by 6DYZBX.
+	+ V0.27.0.0
 * 2019-1018: 0.27.0.0 (JPLRepo) for KSP 1.8.1
 	+ Fix dependency issue for Unloaded Resources processing requiring TAC-LS to be installed.
 	+ Re-Compile for KSP 1.8.x
