@@ -1,5 +1,13 @@
 # Deep Freeze :: Change Log
 
+* 2015-0930: 0.18.2.2 (JPLRepo) for KSP 1.0.3 PRE-RELEASE
+	+ V0.18.3.0 "Bug fixes & Enhancements"
+	+ Added Fatal EC/Heat option. If this is ON kerbals will die if EC runs out or it gets too hot (if you are using the EC and Heat options). If this is OFF the Kerbals will be emergency thawed and become available again, and start consuming LS resources again. Defaults to ON.
+	+ Fixed issue where a freeze/thaw is in progress and the player switches vessels. DeepFreeze will now abort any in-progress thaw/freeze in this case.
+	+ Added flatline sound effect if kerbals die due to lack of EC or over temperature condition.
+	+ Fixed NullReference bug in DFIntMemory with the internal cameras function.
+	+ Support for Texture Replacer V2.4.10, you MUST have this version of Texture Replacer installed. Thawed kerbals will no longer lose their customised texture settings.
+	+ Support for RasterPropMonitor V0.23.0, you MUST have this version of RPM installed.
 * 2015-0911: 0.18.2.1 (JPLRepo) for KSP 1.0.3
 	+ Fix release - add missing DFInterface.DLL file to distro.
 * 2015-0911: 0.18.2.0 (JPLRepo) for KSP 1.0.3
