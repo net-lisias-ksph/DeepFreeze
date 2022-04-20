@@ -1,5 +1,7 @@
 # Deep Freeze :: Change Log
 
+* 2015-0822: 0.18.0.0 (JPLRepo) for KSP 1.0.3
+	+ Refer to the changelog on the [Forum here](http://forum.kerbalspaceprogram.com/threads/124720). There are just so many changes.
 * 2015-0712: 0.17.1.0 (JPLRepo) for KSP 1.0.3
 	+ Introducing the New CRY-1300 3-Kerbal capacity 2.5M Freezer part (hitchhiker sized).
 	+ Contains 3 DeepFreeze Cryogenic Cryopods and a Glykerol Tank (capacity 15 Glykerol units).
