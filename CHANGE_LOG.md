@@ -1,5 +1,9 @@
 # Deep Freeze :: Change Log
 
+* 2019-0217: 0.24.0.0 (JPLRepo) for KSP 1.6.1
+	+ Re-compile for KSP 1.6.x
+	+ Fix shader assignments.
+	+ Fix animations in Cryopods.
 * 2018-1025: 0.23.9.0 (JPLRepo) for KSP 1.5.1
 	+ Re-compile for KSP 1.5.x
 	+ Added German Translation (thanks Nils277)
