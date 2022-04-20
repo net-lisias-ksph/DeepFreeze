@@ -1,5 +1,8 @@
 # Deep Freeze :: Change Log
 
+* 2016-0107: 0.20.1.0 (JPLRepo) for KSP 1.0.5
+	+ Fixed sound glitch/issue with CRY-0300R when attaching more than one in symmetry mode in the editor.
+	+ For Other Modder/Mods API interface re-written providing API via reflection class (no hard dependency) - of no relevance to users.
 * 2015-1208: 0.20.0.0 (JPLRepo) for KSP 1.0.5
 	+ Added new Radial External Cryopod - The CRY-0300R. A single kerbal Cryopod part that can be radially attached. The CRY-0300R also has an attach point at the top of the pod.
 	+ Great for adding radial pods to your vessel or inside a SpacePlane CargoBay! Fits inside the Mk-2 & Mk-3 Cargo bays, the part does clip through the base of cargo bays as it is primarily designed to attach to the outside of a curved part.    However, if you get creative you can fit it into a Cargo bay using girders or octaganol struts.
