@@ -1,5 +1,8 @@
 # Deep Freeze :: Change Log
 
+* 2015-0608: 0.15.0.5 (JPLRepo) for KSP 1.0.x
+	+ First Release DeepFreeze Continued...
+	+ See the Forum for full details. - Too many changes.
 * 2015-0524: 0.14.3 (JPLRepo) for KSP 1.0.x PRE-RELEASE
 	+ So Many fixes... and tweaks.
 		- Crew are now not assigned DEAD status when frozen, but are changed from type=crew to type=unowned.
