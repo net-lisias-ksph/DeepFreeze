@@ -1,5 +1,9 @@
 # Deep Freeze :: Change Log
 
+* 2016-0214: 0.20.3.0 (JPLRepo) for KSP 1.0.5
+	+ V0.20.3.0 "bug Fixes"
+	+ Fixed bug when thawing some kerbals vessel where vessel reference transform was not set in some cases.
+	+ Modified debugging and error messages during thawing to assist easier bug hunting in the future.
 * 2016-0127: 0.20.2.0 (JPLRepo) for KSP 1.0.5
 	+ Fixed null ref bug when vessels are destroyed.
 	+ Fixed null ref bug when KSP vessel list cannot be accessed.
