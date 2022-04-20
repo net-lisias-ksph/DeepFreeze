@@ -1,5 +1,8 @@
 # Deep Freeze :: Change Log
 
+* 2019-0317: 0.25.0.0 (JPLRepo) for KSP 1.6.1
+	+ Fix shaders for real this time. - KSP no longer distributes Legacy Shader Transparent Specular.
+	+ Some Performance improvements and Garbage generation improvements on the part module.
 * 2019-0217: 0.24.0.0 (JPLRepo) for KSP 1.6.1
 	+ Re-compile for KSP 1.6.x
 	+ Fix shader assignments.
