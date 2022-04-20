@@ -1,5 +1,12 @@
 # Deep Freeze :: Change Log
 
+* 2015-0712: 0.17.1.0 (JPLRepo) for KSP 1.0.3
+	+ Introducing the New CRY-1300 3-Kerbal capacity 2.5M Freezer part (hitchhiker sized).
+	+ Contains 3 DeepFreeze Cryogenic Cryopods and a Glykerol Tank (capacity 15 Glykerol units).
+	+ New Part at specialized Construction in TechTree.
+	+ Moved Cry-2300 10 kerbal Freezer to advanced Metalworks in TechTree.
+	+ Re-factored Parts Directories, if upgrading please Delete \GameData\REPOSoftTech\DeepFreeeze
+	+ before installing.
 * 2015-0706: 0.17.0.0 (JPLRepo) for KSP 1.0.3
 	+ Finalization of the Large Internal, and set-up for all the up-coming parts (as they will use the same base code and animations).
 	+ Yes - Animated Cryopods! See for yourself. When you Freeze or Thaw from external view, you will see the Pod open/close in the portrait cameras.
